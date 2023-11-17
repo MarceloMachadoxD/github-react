@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from 'pages/Home';
 import Navbar from 'components/Navbar';
+import ProfileDetails from 'pages/ProfileDetails';
 
 const Routes = () => (
   <BrowserRouter>
@@ -8,6 +9,11 @@ const Routes = () => (
     <Switch>
       <Route path="/" exact>
         <Home />
+      </Route>
+    </Switch>
+    <Switch>
+      <Route path="/profile-details">
+        <ProfileDetails />
       </Route>
     </Switch>
   </BrowserRouter>
