@@ -26,6 +26,7 @@
   background-color: #1890ff;
   color: #ffff;
   border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 .find-button:hover {
