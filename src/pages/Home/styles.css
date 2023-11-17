@@ -3,5 +3,17 @@
 }
 
 .start-button {
-    color: #fff;
+    background-color: #1890FF;
+    color: #FFFF;
+    border-radius: 4px;
+}
+
+.home-container h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.home-container p {
+    font-size: 24px;
+    font-weight: 700;
 }
