@@ -3,17 +3,10 @@ import { useState } from 'react';
 import ProfileCard from 'components/ProfileCard';
 import './styles.css';
 import axios from 'axios';
+import { Profile } from 'types/profile';
 
 type ProfileName = {
   userName: string;
-};
-
-type Profile = {
-  avatar_url: string;
-  html_url: string;
-  followers: number;
-  location: string;
-  name: string;
 };
 
 const ProfileDetails = () => {

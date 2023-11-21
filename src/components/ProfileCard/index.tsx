@@ -1,15 +1,10 @@
 import './styles.css';
 
+import { Profile } from 'types/profile';
+
+
 type Props = {
   profile : Profile;
-};
-
-type Profile = {
-  avatar_url: string;
-  html_url: string;
-  followers: number;
-  location: string;
-  name: string;
 };
 
 const ProfileCard = ({profile}: Props) => {
