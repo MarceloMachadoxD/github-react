@@ -57,11 +57,7 @@ const ProfileDetails = () => {
         </button>
       </div>
       <div className="profile-details-card">
-        {profileData && (
-          <ProfileCard
-            profile={profileData}
-          />
-        )}
+        {profileData && <ProfileCard profile={profileData} />}
       </div>
     </div>
   );
