@@ -1,5 +1,9 @@
 import './styles.css';
 
+type Props = {
+  profile : Profile;
+};
+
 type Profile = {
   avatar_url: string;
   html_url: string;
@@ -8,7 +12,7 @@ type Profile = {
   name: string;
 };
 
-const ProfileCard = (profile: Profile) => {
+const ProfileCard = ({profile}: Props) => {
   return (
     <div className="profile-card-container">
       <div className="profile-card-avatar">

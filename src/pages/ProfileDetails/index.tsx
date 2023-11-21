@@ -66,11 +66,7 @@ const ProfileDetails = () => {
       <div className="profile-details-card">
         {profileData && (
           <ProfileCard
-            avatar_url={profileData.avatar_url}
-            html_url={profileData.html_url}
-            followers={profileData.followers}
-            location={profileData.location}
-            name={profileData.name}
+            profile={profileData}
           />
         )}
       </div>
